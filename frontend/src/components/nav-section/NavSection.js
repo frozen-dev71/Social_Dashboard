@@ -96,7 +96,7 @@ export default function NavSection({ data = [], ...other }) {
 
   return (
     <Box {...other}>
-      <ListItemButton>
+      <ListItemButton onClick = {handleClick}> 
         <ListItemIcon>
           <InboxIcon />
         </ListItemIcon>
